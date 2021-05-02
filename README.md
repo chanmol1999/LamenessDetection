@@ -22,10 +22,27 @@ For the KNN algorithm, K was set to 5, the distance metric was Euclidean and no 
 ### IMPLEMENTATION
 The classification algorithms which I have used to detect lameness are Random Forest (RF) and K-Nearest Neighbour (KNN). Both algorithms are implemented using the ‘scikit-learn’ package using the set of 32 previously described feature characteristics as input variables and the corresponding ground truth lameness and behaviour for each of the window samples as labels.
 
+### RESULTS
+
+#### KNN Algorithm Performance across Activities
+
 <p float="left">
-  <img src="/results/kncstanding.png" width="100" />
-  <img src="/results/kncwalking.png" width="100" /> 
-  <img src="/results/knnlying.png" width="100" />
+  <img src="/results/kncstanding.png" width="300" />
+  <img src="/results/kncwalking.png" width="300" /> 
+  <img src="/results/knnlying.png" width="300" />
 </p>
+
+For walking, all the different performance metrics of the classification increased with an increased number of features between 1 and 11 after which they decreased After an initial increase, performance metrics did not show some significant changes. For standing, similarly all the different performance metrics of the classification remained almost constant with an increase in number of features. For lying, precision recall and F-score metrics of the classification increased with an increased number of features between 1 and 15 at which point all of them plateaued with a small decrease. Of all the performance metrics, specificity was the lowest and recall was the highest across all activities.
+
+#### RF Algorithm Performance across Activities
+
+<p float="left">
+  <img src="/results/rfstanding.png" width="270" />
+  <img src="/results/rfwalking.png" width="270" /> 
+  <img src="/results/rflying.png" width="270" />
+</p>
+
+For walking, all the different performance metrics of the classification increased with an increased number of features between 1 and 8 at which point all plateaued. After an initial increase, performance metrics did not show any significant changes. For standing, similarly all the different performance metrics of the classification increased with an increased number of features between 1 and 9 at which point all plateaued. For lying, precision recall and F-score metrics of the classification increased with an increased number of features between 1 and 5 at which point all of them plateaued with a small increase. Maximum performance values were obtained when using features 22, 32, 22 and 22 for precision, recall, F-score and specificity, respectively. Of all the performance metrics, specificity was the lowest and recall was the highest across all activities.
+
 
 
