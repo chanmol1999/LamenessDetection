@@ -1,5 +1,5 @@
 # Lameness Detection
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[comment]:<[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)>
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chanmol1999/LamenessDetection/blob/main/dryad.ipynb)
 
 ### NEED OF LAMENESS DETECTION 
@@ -33,7 +33,7 @@ The classification algorithms which I have used to detect lameness are Random Fo
   <img src="/results/kncwalking.png" width="260" /> 
   <img src="/results/knnlying.png" width="260" />
 </p>
-
+<
 For walking, all the different performance metrics of the classification increased with an increased number of features between 1 and 11 after which they decreased After an initial increase, performance metrics did not show some significant changes. For standing, similarly all the different performance metrics of the classification remained almost constant with an increase in number of features. For lying, precision recall and F-score metrics of the classification increased with an increased number of features between 1 and 15 at which point all of them plateaued with a small decrease. Of all the performance metrics, specificity was the lowest and recall was the highest across all activities.
 
 #### RF Algorithm Performance across Activities
