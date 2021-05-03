@@ -2,6 +2,9 @@
 [comment]:<[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)>
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chanmol1999/LamenessDetection/blob/main/dryad.ipynb)
 
+#### Academic Project (EE305-Design Lab)
+Automated Detection of Lameness in Animals using ML and Fog Computing approaches under the supervision of Dr.Sudhir Kumar (Assistant Professor at IIT Patna).
+
 ### NEED OF LAMENESS DETECTION 
 The prevalence of lameness has been reported differently in different regions and states. Ger reported that on an average Irish farm, 20 in every 100 cows are affected by lameness in a given year. Timely detection of lameness is a big problem in the dairy industry which farmers are not yet able to adequately solve. It is one of the factors for reduced performance on many dairy farms, at least through reduced reproductive efficiency, milk production and increased culling . Lameness in sheep is the biggest cause of concern regarding poor health and welfare among sheep producing countries. 
 
